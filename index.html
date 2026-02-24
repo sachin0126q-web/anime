@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime world</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Sachin.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">Anime <span>world</span></div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search videos...">
+        <button>🔍</button>
+    </div>
+    </header>
+    <nav class="sidebar">
+    <a href="#">🏠 Home</a>
+    </nav>
+    <main class="main-content">
+    <div class="video-card">
+        <a href="/aot.html/aot.html">
+        <div class="thumbnail">
+            <img src="https://images.justwatch.com/poster/306747132/s718/attack-on-titan.jpg">
+            <div class="play-btn">▶</div>
+        </div>
+        <div class="video-info">
+            <h4>Attack on Titan</h4>
+            <p>All 5 seasons</p>
+        </div>
+        </a>
+    </div>
+
+    <div class="video-card">
+        <div class="thumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiL3RBB6irw4GxiNuTs1YCUmDOSNAEnQS-Rw&s">
+            <div class="play-btn">▶</div>
+        </div>
+        <div class="video-info">
+            <h4>Game of Thrones</h4>
+            <p>All 8 seasons</p>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="thumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9kT46JGjqWaEKBNyYJR33DnPfPcFiD2pqg&s">
+            <div class="play-btn">▶</div>
+        </div>
+        <div class="video-info">
+            <h4>Breaking Bad</h4>
+            <p>All 5 seasons</p>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="thumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTckw4PZ44ulUEyQx0aEvnC6Xe9MvRqBJE71FOsjnK4x9QeyruxeUgWqeZVUbE3LLwJnqYMedDauKkS974TC3AOWQ7fjHC0Xo5m20lKsaKyyw&s=10">
+            <div class="play-btn">▶</div>
+        </div>
+        <div class="video-info">
+            <h4>Dragon Ball Z</h4>
+            <p>All 6 seasons</p>
+        </div>
+    </div>
+    </main>
+    <script>
+    const cards = document.querySelectorAll('.video-card');
+
+    cards.forEach(card=>{
+        card.addEventListener('mouseenter',()=>{
+            card.classList.add('hovered');
+    });
+    card.addEventListener('mouseleave',()=>{
+        card.classList.remove('hovered');
+    });
+    });
+    </script>
+</body>
+</html>
