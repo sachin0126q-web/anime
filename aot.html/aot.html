@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOT ALL SEASONS</title>
+    <link rel="file" href="seaon1"
+    <style>
+        body{
+    background:linear-gradient(135deg,#0f0f0f,#1a1a1a);
+    color:white;
+    overflow-x:hidden;
+}
+    .main-content{
+    padding:30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.navbar{
+    position:sticky;
+    top:0;
+    backdrop-filter:blur(15px);
+    background:rgba(24,24,24,0.6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px 40px;
+    z-index:1000;
+    animation:fadeDown 1s ease;
+}
+
+.logo{
+    font-size:26px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#ff0000;
+}
+.video-card{
+    background:#181818;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.4s;
+    animation:fadeUp 1s ease;
+}
+
+.video-card:hover{
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0px 20px 40px rgba(255,0,0,0.3);
+}
+
+.thumbnail{
+    position:relative;
+    overflow:hidden;
+}
+
+.thumbnail img{
+    width:100%;
+    height: 300px;
+    transition:0.5s;
+}
+
+.video-card:hover img{
+    transform:scale(1.1);
+}
+
+.video-info{
+    padding:15px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.vidbox{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    background-color: #181818;
+}
+
+.vidbox video{
+    border-radius: 30px;
+}
+
+.vidbox video:hover{
+    box-shadow:0 20px 40px rgba(255,0,0,0.3);
+}
+
+.thumbnail video{
+    width:100%;
+    height: 300px;
+}
+
+.sea1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+    </style>
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">Attack<span> On Titan</span></div>
+    </header>
+
+    <div class="vidbox">
+         <video src="my.mp4" type="video/mp4" controls ></video>
+         </div>
+
+    <main class="main-content">
+   <div class="sea1">
+        <div class="video-card">
+          <div class="thumbnail">
+            <img src="https://images.justwatch.com/poster/306747132/s718/attack-on-titan.jpg">
+           </div>
+          <div class="video-info">
+            <h4>Attack on Titan</h4>
+            <p>seasons 1</p>
+          </div>
+        </div>
+          <!-- eq no 1 -->
+        <div class="video-card">
+          <div class="thumbnail">
+            <video src="seaon1/eq1.mp4" type="video/mp4" controls></video>
+           </div>
+          <div class="video-info">
+            <h4>Attack on Titan</h4>
+            <p>seasons 1 Eq 1</p>
+          </div>
+        </div>
+        <!-- eq   no   2 -->
+        <div class="video-card">
+          <div class="thumbnail">
+            <video src="seaon1/eq2.mp4" type="video/mp4" controls></video>
+           </div>
+          <div class="video-info">
+            <h4>Attack on Titan</h4>
+            <p>seasons 1 Eq 2</p>
+          </div>
+        </div>
+        <!-- eq no 3 -->
+        <div class="video-card">
+          <div class="thumbnail">
+            <video src="seaon1/eq3.mp4" type="video/mp4" controls></video>
+           </div>
+          <div class="video-info">
+            <h4>Attack on Titan</h4>
+            <p>seasons 1 Eq 3</p>
+          </div>
+        </div>
+        <!-- eq no 4 -->
+        <div class="video-card">
+          <div class="thumbnail">
+            <video src="seaon1/eq4.mp4" type="video/mp4" controls></video>
+           </div>
+          <div class="video-info">
+            <h4>Attack on Titan</h4>
+            <p>seasons 1 Eq 4</p>
+          </div>
+        </div>
+        <!-- eq no 5 -->
+        <div class="video-card">
+          <div class="thumbnail">
+            <video src="seaon1/eq5.mp4" type="video/mp4" controls></video>
+           </div>
+          <div class="video-info">
+            <h4>Attack on Titan</h4>
+            <p>seasons 1 Eq 5</p>
+          </div>
+        </div>
+          <!-- eq no 6 -->
+        <div class="video-card">
+            <div class="thumbnail">
+                <video src="seaon1/eq6.mp4" type="video/mp4" controls></video>
+             </div>
+            <div class="video-info">
+                <h4>Attack on Titan</h4>
+                <p>seasons 1 Eq 6</p>
+            </div>
+        </div>
+        <!-- eq no 7 -->
+        <div class="video-card">
+            <div class="thumbnail">
+                <video src="seaon1/eq7.mp4" type="video/mp4" controls></video>
+             </div>
+            <div class="video-info">
+                <h4>Attack on Titan</h4>
+                <p>seasons 1 Eq 7</p>
+            </div>
+        </div>
+        <!-- eq no 8 -->
+        <div class="video-card">
+            <div class="thumbnail">
+                <video src="seaon1/eq8.mp4" type="video/mp4" controls></video>
+             </div>
+            <div class="video-info">
+                <h4>Attack on Titan</h4>
+                <p>seasons 1 Eq 8</p>
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
