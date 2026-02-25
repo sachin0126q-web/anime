@@ -84,6 +84,7 @@ a{
 
 .vidbox video{
     border-radius: 30px;
+    height: 300px
 }
 
 .vidbox video:hover{
@@ -101,3 +102,4 @@ a{
     gap: 20px;
 
 }
+
